@@ -10,3 +10,12 @@ public class Gamble1
     static int total_loss_Money=0;
 }
 
+
+////////Usercase2////////
+
+int randomNum = (int)Math.round(Math.random()*1+1);
+
+
+
+
+
