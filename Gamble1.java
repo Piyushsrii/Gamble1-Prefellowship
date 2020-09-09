@@ -44,5 +44,13 @@ int randomNum = (int)Math.round(Math.random()*1+1);
            }
 
 
+////////////UserCase4/////////////
 
+ for(int i=1;i<20;i++)
+{
+     while(stakeMoney<50)
+      {
+         //Use all the code of UserCase 3 to find the 20 days winner and losser.
+      }
+}
 
