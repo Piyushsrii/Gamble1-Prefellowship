@@ -16,6 +16,33 @@ public class Gamble1
 int randomNum = (int)Math.round(Math.random()*1+1);
 
 
+////////UserCase3////////
+
+ while(stakeMoney>=50)
+           {
+                 //int randomNumber = (int)Math.round(Math.random()*1+1);
+                  if(randomNumber == 1)
+                  {
+                        betMoney=betMoney+1;
+                        wonMoney=betMoney;
+                        if(wonMoney==2)
+                        {
+                            System.out.println("you win Rs="+wonMoney);
+                        }
+                            stakeMoney -= 1;
+                  }
+                 else
+                  {
+                            betMoney=betMoney-1;
+                            lossMoney=betMoney;
+                        if(lossMoney==0)
+                        {
+                            System.out.println("you loss yur money="+lossMoney);
+                            stakeMoney -= 1;
+                         }
+                  }
+           }
+
 
 
 
